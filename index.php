@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 // Turn off error reporting
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
@@ -55,4 +55,4 @@ if (isset($_SESSION['login'])) {
 
 </body>
 </html>
-<?php }?>
+<?php }?

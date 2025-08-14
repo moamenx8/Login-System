@@ -1,12 +1,12 @@
-<?php
+ <?php
 // Turn off error reporting
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(E_ALL);
 
-// Optional: Enable logging errors to a file
+//Enable logging errors to a file
 ini_set('log_errors', 1);
-ini_set('error_log', '../logs/./errors.log'); // Customize path
+ini_set('error_log', 'logs/./errors.log'); // Customize path
 
 session_start();
 $username = $_POST['username'];
@@ -23,12 +23,12 @@ $allow_gender=array('male','female');
 $random_name=uniqid();
 $newimage=$random_name . "." . $extension;
 
-$hashedpassword=password_hash($password, PASSWORD_DEFAULT);
+$hashedpassword=password_hash($password,PASSWORD_DEFAULT);
 
-$host="sql.freedb.tech";
-$usernamedb="freedb_moamen";
-$passdb="Hc5Qg#WHm@sb?5u";
-$database="freedb_logindb";
+$host="sql208.infinityfree.com";
+$usernamedb="if0_39704466";
+$passdb="M306SsU6gM";
+$database="if0_39704466_4jt";
 $port="3306";
 $con=new mysqli($host,$usernamedb,$passdb,$database,$port);
 $sql = "INSERT INTO users (`username`, `password`, `email`, `gender`, `image`) VALUES ('$username', '$hashedpassword', '$email', '$gender', '$newimage')";
@@ -85,3 +85,4 @@ if(isset($_SESSION['username_error'])||isset($_SESSION['password_error'])||isset
 
     header('location:../profile.php');
 }
+?

@@ -10,3 +10,47 @@
 [14-Aug-2025 08:34:30 Europe/Berlin] PHP Warning:  include(): Failed opening 'not.php' for inclusion (include_path='F:\Files for Windows programs\xampp\php\PEAR') in F:\Files for Windows programs\xampp\htdocs\login System\index.php on line 10
 [14-Aug-2025 08:40:42 Europe/Berlin] PHP Warning:  move_uploaded_file(image/689d84e991254.jpg): Failed to open stream: No such file or directory in F:\Files for Windows programs\xampp\htdocs\login System\handle\handleregister.php on line 75
 [14-Aug-2025 08:40:42 Europe/Berlin] PHP Warning:  move_uploaded_file(): Unable to move &quot;F:\Files for Windows programs\xampp\tmp\php9A35.tmp&quot; to &quot;image/689d84e991254.jpg&quot; in F:\Files for Windows programs\xampp\htdocs\login System\handle\handleregister.php on line 75
+[14-Aug-2025 15:48:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 25
+[14-Aug-2025 15:48:54 Europe/Berlin] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 25
+[14-Aug-2025 16:08:16 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:08:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:08:29 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:08:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:08:40 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:08:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:09:33 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:09:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:09:40 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:09:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:10:00 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:10:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:10:14 Europe/Berlin] PHP Warning:  Undefined variable $result1 in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46
+[14-Aug-2025 16:10:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php:46
+Stack trace:
+#0 F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in F:\Files for Windows programs\xampp\htdocs\login System\handle\handlelogin.php on line 46

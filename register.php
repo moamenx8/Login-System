@@ -1,10 +1,10 @@
-<?php
+ <?php
 // Turn off error reporting
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(E_ALL);
 
-// Optional: Enable logging errors to a file
+//Enable logging errors to a file
 ini_set('log_errors', 1);
 ini_set('error_log', 'logs/./errors.log'); // Customize path
 
@@ -31,7 +31,7 @@ if (isset($_SESSION['login'])) {
         <div class="container">
             <h1 class="logo">4justtechnology</h1>
             <nav class="nav-links">
-                <a href ="#">Home</a>
+                <a href ="index.php">Home</a>
                 <a href ="#">About</a>
                 <a href ="#">Contact</a>
             </nav>
@@ -61,4 +61,4 @@ if (isset($_SESSION['login'])) {
     <a href='index.php'>Login</a>
 </body>
 </html>
-<?php }?>
+<?php }?

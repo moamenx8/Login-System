@@ -1,12 +1,12 @@
-<?php 
+ <?php 
 // Turn off error reporting
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(E_ALL);
 
-// Optional: Enable logging errors to a file
+//Enable logging errors to a file
 ini_set('log_errors', 1);
-ini_set('error_log', 'logs/./errors.log'); // Customize path
+ini_set('error_log', '../logs/./errors.log'); // Customize path
 
 session_start();
 if (isset($_SESSION['login'])) {
@@ -35,12 +35,12 @@ if (isset($_SESSION['login'])) {
 <?php
 $profileid = $_SESSION['profileid'];
 
-$host="sql.freedb.tech";
-$username="freedb_moamen";
-$pass="Hc5Qg#WHm@sb?5u";
-$database="freedb_logindb";
+$host="sql208.infinityfree.com";
+$usernamedb="if0_39704466";
+$passdb="M306SsU6gM";
+$database="if0_39704466_4jt";
 $port="3306";
-$con=new mysqli($host,$username,$pass,$database,$port);
+$con=new mysqli($host,$usernamedb,$passdb,$database,$port);
 $result = mysqli_query($con, "SELECT * FROM `users` WHERE `id`='$profileid'");
 $alldata = mysqli_fetch_assoc($result);
 ?>
@@ -61,4 +61,4 @@ $alldata = mysqli_fetch_assoc($result);
   session_unset();
   session_destroy();
   header("location: index.php");
-}?>
+}?
